@@ -1,0 +1,32 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
+
+#define Map_Text_Message_FONT_NAME  @"Arial-BoldMT"
+#define Map_Text_Message_FONT_SIZE  16
+
+
+#define Map_Text_Message_Tag 101121
+#define Map_Layer_Node_Tag 101122
+
+#define Map_Layer_Input_File_Name @"myPlistFile_T2.plist"
+#define Map_Layer_Top_Selected_File_Name  @"MedisonGarden.png"
+#define Map_Text_Message @"Medison Sqr Garden Clicked"
+#define Map_Image_Tile_Source_Key @"Source"
+#define Map_Image_Size_Key @"Size"
+#define Map_Image_Tiles_Key @"Tiles"
+#define Map_Image_Tile_Size_Key @"Rect"
+#define Map_Image_Tile_Name_Key @"Name"
+#define TEXTURE_UNLOAD_PERIOD 3
